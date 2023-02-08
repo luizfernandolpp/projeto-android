@@ -38,6 +38,7 @@ body{
 header{
     text-align: center;
     min-height: 150px;
+    padding: auto;
     background-color: var(--st-jade);
     background-image: linear-gradient(to bottom, var(--celadon), var(--british-racing-green));
 }
@@ -88,6 +89,7 @@ nav > a:hover{
 
 main{
    margin: auto;
+   margin-top: 10px;
    margin-bottom:10px;
    padding: 20px;
    background-color: white;
