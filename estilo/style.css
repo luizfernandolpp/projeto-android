@@ -37,7 +37,6 @@ body{
 
 header{
     text-align: center;
-    padding: auto;
     min-height: 150px;
     background-color: var(--st-jade);
     background-image: linear-gradient(to bottom, var(--celadon), var(--british-racing-green));
@@ -67,13 +66,13 @@ header p{
 }
 
 nav{
-    padding: 10px;
+    padding: 20px 10px;
     background-color: var(--british-racing-green);
     box-shadow: 0px 9px 6px rgba(0, 0, 0, 0.521);
 }
 
 nav > a{
-    padding: 10px;
+    padding:10px;
     font-family: var(--fonte-padrao);
     text-decoration: none;
     font-weight: bold;
@@ -83,6 +82,7 @@ nav > a{
 }
 
 nav > a:hover{
+    padding: auto;
     background-color: var(--emerald);
     color: var(--british-racing-green); 
 }
